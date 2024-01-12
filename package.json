@@ -1,0 +1,25 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "Soluciones de los retos de adventjs",
+  "main": "index.js",
+  "scripts": {
+    "reto1": "nodemon --exec ts-node ./retos/reto-1.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lushoxdd",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.56.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "*"
+  }
+}
